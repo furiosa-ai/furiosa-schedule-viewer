@@ -1,0 +1,17 @@
+[package]
+name = "ir-viewer-product-runner"
+version = "0.1.0"
+edition = "2021"
+description = "Local web server that serves the IR Viewer static bundle."
+license = "Apache-2.0"
+
+[[bin]]
+name = "ir-viewer"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+tiny_http = "0.12"
+rust-embed = "8"
+mime_guess = "2"
+webbrowser = "1"
