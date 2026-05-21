@@ -28,7 +28,7 @@ fn main() {
 
     let display_host = if args.host == "0.0.0.0" { "localhost" } else { args.host.as_str() };
     let url = format!("http://{}:{}/", display_host, args.port);
-    println!("furiosa-opt-microscope is serving on {url}");
+    println!("{} is serving on {url}", env!("CARGO_BIN_NAME"));
     match webbrowser::open(&url) {
         Ok(_) => println!("Opened {url} in your default browser."),
         Err(_) => println!("Could not open a browser automatically. Visit {url} manually."),
