@@ -1,12 +1,12 @@
 [package]
-name = "ir-viewer-product-runner"
+name = "schedule-viewer-runner"
 version = "0.1.0"
 edition = "2021"
 description = "Local web server that serves the IR Viewer static bundle."
 license = "Apache-2.0"
 
 [[bin]]
-name = "ir-viewer"
+name = "furiosa-schedule-viewer"
 path = "src/main.rs"
 
 [dependencies]
