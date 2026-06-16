@@ -1,4 +1,4 @@
-# ir-viewer-product-runner
+# schedule-viewer-runner
 
 Local web server that serves the IR Viewer static bundle.
 
@@ -27,5 +27,5 @@ cargo run --release -- --host 0.0.0.0 --port 8000
 
 ```sh
 cargo install --path .
-ir-viewer --host 0.0.0.0 --port 8000
+furiosa-schedule-viewer --host 0.0.0.0 --port 8000
 ```
