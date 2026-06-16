@@ -219,6 +219,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "furiosa-schedule-viewer"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "mime_guess",
+ "rust-embed",
+ "tiny_http",
+ "webbrowser",
+]
+
+[[package]]
 name = "futures-core"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -612,17 +623,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502"
 dependencies = [
  "winapi-util",
-]
-
-[[package]]
-name = "schedule-viewer-runner"
-version = "0.1.0"
-dependencies = [
- "clap",
- "mime_guess",
- "rust-embed",
- "tiny_http",
- "webbrowser",
 ]
 
 [[package]]

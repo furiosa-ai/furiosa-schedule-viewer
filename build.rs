@@ -12,7 +12,7 @@ fn main() {
              Looked for: {}\n\
              \n\
              The `dist/` directory must be present at the crate root.\n\
-             Obtain it from the ir-viewer-product project (run `make sync`\n\
+             Obtain it from the furiosa-schedule-viewer project (run `make sync`\n\
              there) and commit it alongside this crate.\n",
             index.display(),
         );

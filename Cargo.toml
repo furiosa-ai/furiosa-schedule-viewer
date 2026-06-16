@@ -1,8 +1,8 @@
 [package]
-name = "schedule-viewer-runner"
+name = "furiosa-schedule-viewer"
 version = "0.1.0"
 edition = "2021"
-description = "Local web server that serves the IR Viewer static bundle."
+description = "Local web server that serves the furiosa-schedule-viewer."
 license = "Apache-2.0"
 
 [[bin]]

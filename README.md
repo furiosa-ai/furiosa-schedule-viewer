@@ -1,6 +1,6 @@
-# schedule-viewer-runner
+# furiosa-schedule-viewer
 
-Local web server that serves the IR Viewer static bundle.
+Local web server that serves the furiosa-schedule-viewer.
 
 The `dist/` directory at the crate root holds the pre-built web assets and is embedded into the binary at compile time.
 
@@ -25,7 +25,17 @@ cargo run --release -- --host 0.0.0.0 --port 8000
 
 ## Install
 
+Install directly from the repository (no clone needed):
+
+```sh
+cargo install --git https://github.com/furiosa-ai/furiosa-schedule-viewer
+furiosa-schedule-viewer --host 0.0.0.0 --port 8000
+```
+
+Pin to a specific revision or tag with `--rev <sha>` or `--tag <tag>`.
+
+From a local checkout:
+
 ```sh
 cargo install --path .
-furiosa-schedule-viewer --host 0.0.0.0 --port 8000
 ```
