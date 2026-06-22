@@ -20,7 +20,7 @@ By default the server binds to `127.0.0.1:9254` and opens the page in your
 default browser. Override with `--host` and `--port`:
 
 ```sh
-cargo run --release -- --host 0.0.0.0 --port 8000
+cargo run --release -- --host 127.0.0.1 --port 9254
 ```
 
 ## Install
@@ -28,8 +28,8 @@ cargo run --release -- --host 0.0.0.0 --port 8000
 Install directly from the repository (no clone needed):
 
 ```sh
-cargo install --git https://github.com/furiosa-ai/furiosa-schedule-viewer
-furiosa-schedule-viewer --host 0.0.0.0 --port 8000
+cargo install --path .
+furiosa-schedule-viewer --host 127.0.0.1 --port 9254
 ```
 
 Pin to a specific revision or tag with `--rev <sha>` or `--tag <tag>`.
