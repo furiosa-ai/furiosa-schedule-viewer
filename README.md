@@ -28,7 +28,8 @@ cargo run --release -- --host 127.0.0.1 --port 9254
 Install directly from the repository (no clone needed):
 
 ```sh
-cargo install --path .
+cargo install cargo-binstall
+cargo binstall furiosa-schedule-viewer
 furiosa-schedule-viewer --host 127.0.0.1 --port 9254
 ```
 
