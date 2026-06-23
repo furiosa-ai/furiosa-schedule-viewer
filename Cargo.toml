@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Local web server that serves the furiosa-schedule-viewer."
 license = "Apache-2.0"
+repository = "https://github.com/furiosa-ai/furiosa-schedule-viewer"
 
 [[bin]]
 name = "furiosa-schedule-viewer"
@@ -15,3 +16,8 @@ tiny_http = "0.12"
 rust-embed = "8"
 mime_guess = "2"
 webbrowser = "1"
+
+[package.metadata.binstall]
+pkg-url = "{ repo }/releases/download/v{ version }/{ name }-{ version }-{ target }.{ archive-format }"
+pkg-fmt = "tgz"
+bin-dir = "{ bin }{ binary-ext }"
